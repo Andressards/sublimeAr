@@ -467,6 +467,7 @@ header.scrolled{
   .whatsapp-float{ width:56px; height:56px; bottom:18px; right:18px; }
   .icon-wa-float{ width:26px; height:26px; }
   #backToTop{ bottom:18px; left:18px; width:42px; height:42px; }
+  .scroll-cue{ display:none; }
 }
 
 @media (max-width: 420px){
