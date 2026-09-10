@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sublime Ar | Sistemas de Ar Condicionado</title>
+<meta name="description" content="Sublime Ar - Instalação, manutenção preventiva e corretiva, projetos VRF e dutos de ar condicionado em Goiás e região. Qualidade, eficiência e sustentabilidade.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❄️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== LOADER ===== -->
+<div id="loader">
+  <div class="loader-inner">
+    <span class="loader-flake">❄</span>
+    <p>SUBLIME AR</p>
+  </div>
+</div>
+
+<!-- ===== CURSOR GLOW (desktop) ===== -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="container header-inner">
+    <a href="#topo" class="logo">
+      <span class="logo-icon">❄</span>
+      <span class="logo-text">SUBLIME <strong>AR</strong></span>
+    </a>
+
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#topo" class="nav-link active">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#atuacao" class="nav-link">Atuação</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+
+    <a href="https://wa.me/5562992446405?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="btn btn-primary header-cta">
+      <svg viewBox="0 0 24 24" class="icon-wa"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.85.505 3.663 1.464 5.248L2 22l4.906-1.442A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12.001 2zm0 18.18a8.15 8.15 0 0 1-4.166-1.14l-.299-.177-2.913.856.87-2.837-.194-.31A8.18 8.18 0 1 1 20.18 12a8.19 8.19 0 0 1-8.179 8.18z"/></svg>
+      Fale conosco
+    </a>
+
+    <button id="menuToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="topo" class="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+
+  <div class="container hero-content">
+    <p class="eyebrow reveal" data-reveal>Climatização de alto padrão</p>
+    <h1 class="reveal" data-reveal>
+      Conforto <span class="text-gradient">térmico</span> com
+      eficiência e <span class="text-gradient">precisão técnica</span>
+    </h1>
+    <p class="hero-sub reveal" data-reveal>
+      A Sublime Ar implementa sistemas de ar condicionado com alto padrão de qualidade,
+      oferecendo soluções personalizadas que unem conforto, eficiência e sustentabilidade —
+      da instalação à manutenção, com agilidade e precisão.
+    </p>
+
+    <div class="hero-actions reveal" data-reveal>
+      <a href="https://wa.me/5562992446405?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        Solicitar orçamento
+      </a>
+      <a href="#servicos" class="btn btn-ghost btn-lg">Ver serviços</a>
+    </div>
+
+    <div class="hero-badges reveal" data-reveal>
+      <div class="badge-item"><span class="badge-dot"></span> Instalação &amp; Projetos</div>
+      <div class="badge-item"><span class="badge-dot"></span> Manutenção Preventiva</div>
+      <div class="badge-item"><span class="badge-dot"></span> Sistemas VRF &amp; Dutos</div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span></span>
+    <p>Role para descobrir</p>
+  </div>
+</section>
+
+<!-- ===== MARQUEE PARCEIROS ===== -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>VIDAN ENGENHARIA</span><span>•</span>
+    <span>VALENCIA CONSTRUTORA</span><span>•</span>
+    <span>GPL INCORPORADORA</span><span>•</span>
+    <span>ART MEC ENGENHARIA</span><span>•</span>
+    <span>TECSAN ENGENHARIA</span><span>•</span>
+    <span>VIDAN ENGENHARIA</span><span>•</span>
+    <span>VALENCIA CONSTRUTORA</span><span>•</span>
+    <span>GPL INCORPORADORA</span><span>•</span>
+    <span>ART MEC ENGENHARIA</span><span>•</span>
+    <span>TECSAN ENGENHARIA</span><span>•</span>
+  </div>
+</div>
+
+<!-- ===== SOBRE ===== -->
+<section id="sobre" class="section">
+  <div class="container about-grid">
+    <div class="about-visual reveal" data-reveal>
+      <div class="about-card-stack">
+        <div class="floating-card card-1">
+          <span class="fc-icon">🛠️</span>
+          <div>
+            <strong>Instalação &amp; Corretiva</strong>
+            <p>Equipe técnica especializada</p>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <span class="fc-icon">📐</span>
+          <div>
+            <strong>Projetos &amp; VRF</strong>
+            <p>Gerenciamento sob demanda</p>
+          </div>
+        </div>
+        <div class="ac-orb">
+          <div class="ac-orb-ring r1"></div>
+          <div class="ac-orb-ring r2"></div>
+          <div class="ac-orb-core">❄</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="eyebrow reveal" data-reveal>Quem somos</p>
+      <h2 class="reveal" data-reveal>Uma empresa dedicada a sistemas de <span class="text-gradient">ar condicionado</span></h2>
+      <p class="reveal" data-reveal>
+        Nossa equipe é especializada e comprometida em entregar serviços de instalação, manutenção
+        e suporte técnico com agilidade e precisão. Com parcerias estratégicas e o uso de marcas
+        líderes no mercado, garantimos aos nossos clientes confiança e durabilidade nos equipamentos
+        fornecidos.
+      </p>
+      <p class="reveal" data-reveal>
+        Nosso compromisso é proporcionar um ambiente mais confortável e saudável, atendendo às
+        expectativas dos clientes com profissionalismo — da pré-instalação ao suporte pós-venda.
+      </p>
+
+      <div class="team-cards reveal" data-reveal>
+        <div class="team-card">
+          <span class="team-avatar">RL</span>
+          <div>
+            <strong>Renato Lima</strong>
+            <p>Responsável Técnico</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <span class="team-avatar">MF</span>
+          <div>
+            <strong>Marcos Felipe</strong>
+            <p>Mecânico Responsável</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVIÇOS ===== -->
+<section id="servicos" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal" data-reveal>Catálogo de serviços</p>
+      <h2 class="reveal" data-reveal>Soluções completas em <span class="text-gradient">climatização</span></h2>
+      <p class="section-lead reveal" data-reveal>
+        Do planejamento à manutenção — prazos de execução sempre de acordo com a demanda do projeto.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">📐</div>
+        <h3>Projetos</h3>
+        <p>Gerenciamento de projetos personalizados de climatização, do zero à execução.</p>
+        <span class="service-tag">Gerenciamento de Projetos</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">🧰</div>
+        <h3>Pré-instalação</h3>
+        <p>Planejamento técnico e preparação de infraestrutura para novos sistemas.</p>
+        <span class="service-tag">Técnicos em Refrigeração</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">❄️</div>
+        <h3>Instalação</h3>
+        <p>Instalação de sistemas de ar condicionado com precisão e agilidade.</p>
+        <span class="service-tag">Técnicos em Refrigeração</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">🔧</div>
+        <h3>Manutenção Preventiva</h3>
+        <p>Rotinas de manutenção para garantir eficiência e vida útil dos equipamentos.</p>
+        <span class="service-tag">Técnicos em Refrigeração</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">⚙️</div>
+        <h3>Corretiva em Geral</h3>
+        <p>Atendimento corretivo ágil para pequenas e grandes empresas.</p>
+        <span class="service-tag">Técnicos em Refrigeração</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">🏢</div>
+        <h3>VRF</h3>
+        <p>Sistemas de volume de refrigerante variável para grandes empreendimentos.</p>
+        <span class="service-tag">Gerenciamento de Projetos</span>
+      </div>
+      <div class="service-card reveal" data-reveal>
+        <div class="service-icon">🌀</div>
+        <h3>Dutos</h3>
+        <p>Projeto e execução de redes de dutos para climatização central.</p>
+        <span class="service-tag">Gerenciamento de Projetos</span>
+      </div>
+      <div class="service-card service-card-highlight reveal" data-reveal>
+        <div class="service-icon">🧊</div>
+        <h3>Chiller &amp; Centrais</h3>
+        <p>Técnicos treinados para garantir total eficiência em sistemas de grande porte.</p>
+        <span class="service-tag">Atendimento contratual</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ATUAÇÃO / CLIENTES / PARCEIROS ===== -->
+<section id="atuacao" class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal" data-reveal>Confiança de mercado</p>
+      <h2 class="reveal" data-reveal>Onde a <span class="text-gradient">Sublime Ar</span> atua</h2>
+      <p class="section-lead reveal" data-reveal>
+        Especializados em atendimentos preventivos e corretivos, com técnicos treinados no
+        serviço de chiller e centrais — eficiência para pequenas e grandes empresas.
+      </p>
+    </div>
+
+    <div class="atuacao-grid">
+      <div class="atuacao-col reveal" data-reveal>
+        <h3 class="col-title">Locais onde atuamos</h3>
+        <ul class="atuacao-list">
+          <li><span>Clínica São Marcelo</span><em>Dr. Wagner</em></li>
+          <li><span>Grupo LAS do Brasil</span><em>Luís Mauro</em></li>
+          <li><span>Fértile</span><em>Sandra</em></li>
+          <li><span>Alpha Hair</span><em>Francisco</em></li>
+          <li><span>Drogaria Santa Maria</span><em>Wilber</em></li>
+        </ul>
+      </div>
+
+      <div class="atuacao-col reveal" data-reveal>
+        <h3 class="col-title">Nossos parceiros</h3>
+        <div class="partners-grid">
+          <div class="partner-chip">Vidan Engenharia</div>
+          <div class="partner-chip">Valencia Construtora</div>
+          <div class="partner-chip">GPL Incorporadora</div>
+          <div class="partner-chip">Art Mec Engenharia</div>
+          <div class="partner-chip">Tecsan Engenharia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJETOS / OBRAS RECENTES ===== -->
+<section id="projetos" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal" data-reveal>Demais atuação</p>
+      <h2 class="reveal" data-reveal>Obras <span class="text-gradient">recentes</span></h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal" data-reveal>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>IMA — Instituto Mineiro de Agropecuária</h4>
+          <p>Uberlândia (MG)</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal" data-reveal>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>MAPA — Ministério de Pecuária e Abastecimento</h4>
+          <p>Uberlândia (MG)</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal" data-reveal>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>Laboratório de Ciências e Artes (UFG)</h4>
+          <p>Goiânia (GO)</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal" data-reveal>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>Agência Caixa Econômica Federal</h4>
+          <p>Anápolis (GO)</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal" data-reveal>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>INSS</h4>
+          <p>Goianésia (GO)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section">
+  <div class="container cta-inner reveal" data-reveal>
+    <h2>Pronto para climatizar seu espaço com quem entende do assunto?</h2>
+    <p>Fale agora mesmo com nossos técnicos pelo WhatsApp e receba um atendimento rápido e personalizado.</p>
+    <a href="https://wa.me/5562992446405?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+      Chamar no WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ===== CONTATO ===== -->
+<section id="contato" class="section">
+  <div class="container contact-grid">
+    <div class="reveal" data-reveal>
+      <p class="eyebrow">Fale com a gente</p>
+      <h2>Vamos climatizar o <span class="text-gradient">seu ambiente</span></h2>
+      <p class="section-lead" style="margin-bottom:2rem;">
+        Estamos à disposição para apresentar mais detalhes sobre nosso portfólio e parceiros.
+      </p>
+
+      <div class="contact-info">
+        <a class="contact-item" href="https://wa.me/5562992446405" target="_blank" rel="noopener">
+          <span class="contact-icon">📱</span>
+          <div><strong>WhatsApp</strong><p>(62) 99244-6405</p></div>
+        </a>
+        <a class="contact-item" href="tel:+5562991546092">
+          <span class="contact-icon">📞</span>
+          <div><strong>Telefone</strong><p>(62) 99154-6092</p></div>
+        </a>
+        <a class="contact-item" href="mailto:Sublimear@yahoo.com.br">
+          <span class="contact-icon">✉️</span>
+          <div><strong>E-mail</strong><p>Sublimear@yahoo.com.br</p></div>
+        </a>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" data-reveal id="contactForm">
+      <div class="form-row">
+        <label>Nome</label>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+      </div>
+      <div class="form-row">
+        <label>Telefone</label>
+        <input type="tel" name="telefone" placeholder="(62) 90000-0000" required>
+      </div>
+      <div class="form-row">
+        <label>Mensagem</label>
+        <textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu projeto..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">
+        Enviar via WhatsApp
+      </button>
+      <p class="form-note">Ao enviar, você será redirecionado ao WhatsApp com sua mensagem pronta.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-icon">❄</span>
+      <span class="logo-text">SUBLIME <strong>AR</strong></span>
+      <p>Sistemas de Ar Condicionado</p>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Sublime Ar. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ===== WHATSAPP FLOAT BUTTON ===== -->
+<a href="https://wa.me/5562992446405?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Fale conosco no WhatsApp">
+  <span class="wa-pulse"></span>
+  <svg viewBox="0 0 24 24" class="icon-wa-float"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.001 2C6.478 2 2 6.477 2 12c0 1.85.505 3.663 1.464 5.248L2 22l4.906-1.442A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12.001 2zm0 18.18a8.15 8.15 0 0 1-4.166-1.14l-.299-.177-2.913.856.87-2.837-.194-.31A8.18 8.18 0 1 1 20.18 12a8.19 8.19 0 0 1-8.179 8.18z"/></svg>
+</a>
+
+<!-- ===== BACK TO TOP ===== -->
+<button id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
